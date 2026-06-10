@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+
+    <h1>Rock Paper Scissors</h1>
+    <p>Click the buttons below to play!</p>
+
+    <button onclick="playRound('rock', getComputerChoice())">Rock</button>
+    <button onclick="playRound('paper', getComputerChoice())">Paper</button>
+    <button onclick="playRound('scissors', getComputerChoice())">Scissors</button>
+
+    <!-- This new section will display the score directly on your preview screen -->
+    <h2 style="margin-top: 30px;">Match Status:</h2>
+    <div id="game-results" style="font-size: 18px; line-height: 1.6; background: #f0f0f0; padding: 15px; border-radius: 5px; max-width: 400px;">
+        Click a button to start the game.
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
